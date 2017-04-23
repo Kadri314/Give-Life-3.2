@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kareemkanaan.cardview2.Choose_Type">
+
+    <Button
+        android:id="@+id/choose_type_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:drawableTop="@drawable/clothes1"
+        android:fontFamily="sans-serif"
+        android:includeFontPadding="false"
+        android:minHeight="110dip"
+        android:minWidth="110dip"
+        android:paddingTop="20dp"
+        android:text="clothes"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/choose_type_2"
+        android:layout_alignBottom="@+id/choose_type_2"
+        android:layout_alignStart="@+id/choose_others" />
+
+    <Button
+        android:id="@+id/choose_type_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/choose_all"
+        android:layout_below="@+id/choose_type_1"
+        android:layout_marginTop="31dp"
+        android:background="@color/colorPrimary"
+        android:drawableTop="@drawable/books"
+        android:fontFamily="sans-serif"
+        android:includeFontPadding="false"
+        android:minHeight="110dip"
+        android:minWidth="110dip"
+        android:paddingTop="20dp"
+        android:text="books"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/choose_type_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/choose_type_2"
+        android:layout_below="@+id/choose_type_2"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorPrimary"
+        android:drawableTop="@drawable/home1"
+        android:fontFamily="sans-serif"
+        android:includeFontPadding="false"
+        android:minHeight="110dip"
+        android:minWidth="110dip"
+        android:paddingTop="20dp"
+        android:text="home"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/choose_type_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:drawableTop="@drawable/app"
+        android:fontFamily="sans-serif"
+        android:includeFontPadding="false"
+        android:minHeight="110dip"
+        android:minWidth="110dip"
+        android:paddingTop="20dp"
+        android:text="appliances"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        android:layout_alignTop="@+id/choose_all"
+        android:layout_alignStart="@+id/choose_type_3" />
+
+    <Button
+        android:id="@+id/choose_others"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:drawableTop="@drawable/others"
+        android:fontFamily="sans-serif"
+        android:includeFontPadding="false"
+        android:minHeight="110dip"
+        android:minWidth="110dip"
+        android:paddingTop="20dp"
+        android:text="others"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/choose_type_4"
+        android:layout_toEndOf="@+id/choose_type_4"
+        android:layout_marginStart="56dp" />
+
+    <Button
+        android:id="@+id/choose_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="83dp"
+        android:background="@color/colorPrimary"
+        android:drawableTop="@drawable/all"
+        android:fontFamily="sans-serif"
+        android:includeFontPadding="false"
+        android:minHeight="110dip"
+        android:minWidth="110dip"
+        android:paddingTop="20dp"
+        android:text="all"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:layout_marginStart="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+
+

@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Give Life</string>
+    <string-array name="mainitems">
+        <item>
+            Home
+        </item>
+        <item>
+            Clothes
+        </item>
+        <item>
+            Appliances
+        </item>
+        <item>
+            Books
+        </item>
+        <item>
+            Medication
+        </item>
+        <item>
+            Toys
+        </item>
+        <item>
+            Others
+        </item>
+    </string-array>
+    <string-array name="numberOfNeeds">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="sort">
+        <item>
+            Sort_By_Date_ASC
+        </item>
+        <item>
+            Sort_By_Date_DESC
+        </item>
+        <item>
+            Sort_By_Nearest_Location
+        </item>
+    </string-array>
+
+    <string-array name="Appliances">
+        <item>
+            Oven
+        </item>
+        <item>
+            Refridgerator
+        </item>
+        <item>
+            Stove
+        </item>
+        <item>
+            TV
+        </item>
+        <item>
+            Washer
+        </item>
+    </string-array>
+
+    <string-array name="Books">
+        <item>
+            Drama
+        </item>
+        <item>
+            Education
+        </item>
+        <item>
+            Mystery
+        </item>
+        <item>
+            Romance
+        </item>
+        <item>
+            Science Fiction
+        </item>
+    </string-array>
+
+    <string-array name="Clothes">
+        <item>
+            Pants
+        </item>
+        <item>
+            Shirts
+        </item>
+        <item>
+            Sports
+        </item>
+        <item>
+            T-Shirts
+        </item>
+        <item>
+            Underwear
+        </item>
+    </string-array>
+
+    <string-array name="Home">
+        <item>
+            Bed
+        </item>
+        <item>
+            Table
+        </item>
+        <item>
+            Couches
+        </item>
+        <item>
+            Kitchen
+        </item>
+        <item>
+            Bathroom
+        </item>
+    </string-array>
+
+    <string-array name="Medication">
+        <item>
+            Analgestics
+        </item>
+        <item>
+            Antibiotics
+        </item>
+        <item>
+            Antipyretics
+        </item>
+        <item>
+            Antiseptics
+        </item>
+        <item>
+            Other
+        </item>
+    </string-array>
+
+    <string-array name="Toys">
+        <item>
+            Dolls
+        </item>
+        <item>
+            Action_Figure
+        </item>
+        <item>
+            Electronics
+        </item>
+        <item>
+            Lego
+        </item>
+        <item>
+            Puzzle
+        </item>
+    </string-array>
+    <string-array name="Others">
+        <item>
+
+        </item>
+
+    </string-array>
+
+    <!--The follwoing Code is related to faceBook and google Login-->
+    <string name="facebook_app_id">1326947124033128</string>
+</resources>

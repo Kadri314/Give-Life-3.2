@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    ------- here RelativeLayout ------
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_new_request"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.kareemkanaan.cardview2.CaseDetails">
+
+
+            <EditText
+                android:id="@+id/numbertext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/number"
+                android:layout_alignBottom="@+id/number"
+                android:layout_alignParentEnd="true"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/titletext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/title"
+                android:layout_alignBottom="@+id/title"
+                android:layout_alignParentEnd="true"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/title"
+                android:layout_below="@+id/titletext"
+                android:layout_marginTop="11dp"
+                android:text="Number"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/numbertext"
+                android:layout_marginTop="13dp"
+                android:text="Location"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/Description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/citiesSpinner"
+                android:layout_marginTop="11dp"
+                android:text="Description"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/Description"
+                android:layout_marginTop="14dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TableLayout
+                android:id="@+id/table"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView13"
+                android:stretchColumns="*">
+
+
+                <TableRow
+                    android:id="@+id/row1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:minHeight="100dp"
+                    android:minWidth="250dp"
+                    android:orientation="vertical"
+                    android:stretchColumns="*"
+                    android:weightSum="100">
+
+                    <EditText
+                        android:id="@+id/typeEditText"
+                        android:layout_width="@dimen/cardview_default_elevation"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/itemEditText"
+                        android:layout_width="@dimen/cardview_default_elevation"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <Button
+                        android:id="@+id/add1"
+                        android:layout_alignParentStart="false"
+                        android:layout_alignParentTop="false"
+                        android:layout_marginTop="14dp"
+                        android:background="@android:color/transparent"
+                        android:maxWidth="2dp"
+                        android:minWidth="1dp"
+                        android:text="+"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="30dp"
+                        android:visibility="visible" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:minHeight="100dp"
+                    android:minWidth="250dp"
+                    android:orientation="vertical"
+                    android:stretchColumns="*"
+                    android:weightSum="100">
+
+                    <EditText
+                        android:id="@+id/typeEditText2"
+                        android:layout_width="@dimen/cardview_default_elevation"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/itemEditText2"
+                        android:layout_width="@dimen/cardview_default_elevation"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                    <Button
+                        android:id="@+id/add2"
+                        android:layout_alignParentStart="false"
+                        android:layout_alignParentTop="false"
+                        android:layout_marginTop="14dp"
+                        android:background="@android:color/transparent"
+                        android:maxWidth="2dp"
+                        android:minWidth="1dp"
+                        android:text="+"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="30dp"
+                        android:visibility="visible" />
+
+                </TableRow>
+
+
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/addImg"
+                android:text="Needs:"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/table"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorPrimary"
+                android:text="Submit"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/location"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="14dp"
+                android:text="Title"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/addImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/addImg2"
+                android:text="Upload Image" />
+
+            <Button
+                android:id="@+id/addImg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/description"
+                android:text="Upload Image" />
+
+            <Spinner
+                android:id="@+id/spinnerNumberOfNeeds"
+                android:layout_width="@dimen/cast_libraries_material_featurehighlight_center_threshold"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/addImg"
+                android:layout_toEndOf="@+id/location" />
+
+        <Spinner
+            android:id="@+id/citiesSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/location"
+            android:layout_toEndOf="@+id/Description" />
+
+    </RelativeLayout>
+</ScrollView>
